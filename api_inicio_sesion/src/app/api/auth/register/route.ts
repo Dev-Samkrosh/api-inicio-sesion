@@ -1,5 +1,5 @@
 import { connectMongoDB } from "@/app/libs/mongodb";
-import User, { IUserSchema } from "@/app/models/User";
+import User, { IUser, IUserSchema } from "@/app/models/User";
 import { isValidEmail } from "@/app/utils/isValidEmail";
 import { messages } from "@/app/utils/messages";
 import { NextRequest, NextResponse } from "next/server";
